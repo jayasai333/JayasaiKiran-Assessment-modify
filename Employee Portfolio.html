@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Elite Human Capital Portfolio - Truerize IQ Strategic Solutions</title>
+  <meta name="description" content="Meet the multidisciplinary consultants, principal cloud architects, and data intelligence strategists driving performance and scale at Truerize IQ.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+   
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo-text" align="center">Truerize * IQ * Strategic Solutions Hub</a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="/index.html" class="active">          Home      </a></li>
+        </ul>
+      </nav>
+     </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="portfolio-section">
+      
+      <div class="section-title-block">
+        <h2>Our Human Capital Architecture</h2>
+        <p>"Empowering your enterprise with an elite squad of cloud architects, full-stack developers, and data strategists built to scale your business."</p>
+      </div>
+
+      <div class="filter-menu-wrapper">
+        <ul class="filter-tabs">
+          <li class="filter-tab-item active-state" onclick="filterTalent('all', this)">All Experts</li>
+          <li class="filter-tab-item" onclick="filterTalent('cloud', this)">Cloud Architecture</li>
+          <li class="filter-tab-item" onclick="filterTalent('dev', this)">Full-Stack Development</li>
+          <li class="filter-tab-item" onclick="filterTalent('data', this)">Data Strategy</li>
+        </ul>
+      </div>
+
+      <div class="portfolio-grid-layout" id="talent-grid">
+
+        <div class="expert-card" data-category="cloud">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">Infrastructure</span>
+            <img src="/assets/img/person/person-m-12.webp" alt="Marcus Vance - Principal Cloud Architect">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Marcus Vance</h3>
+              <p class="expert-role-title">Principal Cloud Architect</p>
+            </div>
+            <p class="expert-profile-summary">
+              Designs robust AWS/Azure multi-region architectures, orchestrating massive scale migrations with strict Zero-Trust security compliance structures.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">AWS EKS</span>
+                <span class="system-badge">Terraform</span>
+                <span class="system-badge">Zero-Trust</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=marcus-vance" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card" data-category="dev">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">Engineering</span>
+            <img src="/assets/img/person/person-f-7.webp" alt="Elena Rostova - Lead Software Engineer">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Elena Rostova</h3>
+              <p class="expert-role-title">Lead Software Engineer</p>
+            </div>
+            <p class="expert-profile-summary">
+              Specializes in building highly concurrent backend systems using Node.js, Go, and reactive, fluid frontend deployment layouts with Next.js/React.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">React/NextJS</span>
+                <span class="system-badge">Go Lang</span>
+                <span class="system-badge">gRPC APIs</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=elena-rostova" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-github"></i></a>
+                <a href="#" class="channel-anchor"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card" data-category="data">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">Intelligence</span>
+            <img src="/assets/img/person/person-m-9.webp" alt="Rajesh Nair - Director of Data Science">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Rajesh Nair</h3>
+              <p class="expert-role-title">Director of Data Science</p>
+            </div>
+            <p class="expert-profile-summary">
+              Deploys complex predictive analytics systems, real-time pipeline automation via Apache Spark clusters, and optimized business intelligence databases.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">Apache Spark</span>
+                <span class="system-badge">Python AI</span>
+                <span class="system-badge">Snowflake</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=rajesh-nair" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card" data-category="cloud">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">DevSecOps</span>
+            <img src="/assets/img/person/person-f-12.webp"alt="Sarah Jenkins - DevOps Automation Specialist">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Sarah Jenkins</h3>
+              <p class="expert-role-title">DevOps &amp; Automation Specialist</p>
+            </div>
+            <p class="expert-profile-summary">
+              Configures highly optimized, stable corporate CI/CD pipelines, container orchestration environments, and automated cloud protection architectures.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">Kubernetes</span>
+                <span class="system-badge">Docker API</span>
+                <span class="system-badge">GitHub Actions</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=sarah-jenkins" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card" data-category="dev">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">Web Applications</span>
+            <img src="/assets/img/person/person-f-5.webp" alt="Priya Sharma - Senior Frontend Engineer">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Priya Sharma</h3>
+              <p class="expert-role-title">Senior Frontend Engineer</p>
+            </div>
+            <p class="expert-profile-summary">
+              Transforms intricate corporate software wireframes into production-ready web apps using semantic systems, TypeScript frameworks, and modern CSS compilation routines.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">TypeScript</span>
+                <span class="system-badge">VueJS/Nuxt</span>
+                <span class="system-badge">Tailwind CSS</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=priya-sharma" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card" data-category="data">
+          <div class="expert-image-frame">
+            <span class="dept-ribbon">Business Strategy</span>
+            <img src="/assets/img/person/person-m-6.webp" alt="Amit Kapoor - Enterprise Solutions Consultant">
+          </div>
+          <div class="expert-body-content">
+            <div class="expert-meta-data">
+              <h3>Amit Kapoor</h3>
+              <p class="expert-role-title">Enterprise Solutions Consultant</p>
+            </div>
+            <p class="expert-profile-summary">
+              Aligns complex engineering capabilities with concrete executive commercial milestones, auditing operational roadmaps to maximize technical ROI performance.
+            </p>
+            <div class="systems-stack-block">
+              <h4>Core Expertise</h4>
+              <div class="badge-collection">
+                <span class="system-badge">IT ROI Audits</span>
+                <span class="system-badge">SaaS Logic</span>
+                <span class="system-badge">Agile Delivery</span>
+              </div>
+            </div>
+            <hr class="card-divider-line">
+            <div class="card-action-row">
+              <a href="portfolio-details.html?expert=amit-kapoor" class="action-dossier-btn"><i class="bi bi-person-badge"></i>View Dossier</a>
+              <div class="social-network-channels">
+                <a href="#" class="channel-anchor"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function filterTalent(category, element) {
+      // Toggle active states on the tab navigation elements
+      const tabs = document.querySelectorAll('.filter-tab-item');
+      tabs.forEach(tab => tab.classList.remove('active-state'));
+      element.classList.add('active-state');
+
+      // Filter card visibility criteria smoothly
+      const cards = document.querySelectorAll('.expert-card');
+      cards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'flex';
+          setTimeout(() => { card.style.opacity = '1'; }, 10);
+        } else {
+          card.style.opacity = '0';
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
